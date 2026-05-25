@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { ExternalLink, Sparkles, Plus } from 'lucide-react';
+import { ExternalLink, Plus } from 'lucide-react';
 import { ProjectModal } from '../components/ProjectModal';
 
 // Import logos

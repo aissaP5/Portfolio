@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { WebGLBackground } from './components/WebGLBackground';
 import { CustomCursor } from './components/CustomCursor';
 import { Navbar } from './components/Navbar';

@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { X, ExternalLink, Code2, Cpu, Globe, Rocket } from 'lucide-react';
+import { X, Code2, Cpu, Globe, Rocket } from 'lucide-react';
 
 interface Project {
   title: string;

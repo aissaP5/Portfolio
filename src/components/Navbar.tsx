@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Menu, X, ArrowUpRight } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 
 interface NavItem {
   label: string;
@@ -9,7 +9,7 @@ interface NavItem {
 
 export const Navbar: React.FC = () => {
   const [activeSection, setActiveSection] = useState<string>('hero');
-  const [scrolled, setScrolled] = useState<boolean>(false);
+  const [, setScrolled] = useState<boolean>(false);
   const [isOpen, setIsOpen] = useState<boolean>(false);
 
   const navItems: NavItem[] = [
