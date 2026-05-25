@@ -9,7 +9,6 @@ import tailwindLogo from '../assets/tailwind.png';
 import nodeLogo from '../assets/node.png';
 import vueLogo from '../assets/vue.png';
 import mongoLogo from '../assets/mongo.png';
-import viteLogo from '../assets/vite.svg';
 
 interface Skill {
   name: string;
