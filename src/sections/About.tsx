@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { ShieldCheck, Cpu, Code2 } from 'lucide-react';
+import aissaImg from '../assets/aissa.jpg';
 
 export const About: React.FC = () => {
   const statCards = [
@@ -32,20 +33,32 @@ export const About: React.FC = () => {
             </div>
           </div>
 
-          <motion.div
-            className="glass p-8 sm:p-12 rounded-[2.5rem] border border-white/5 relative overflow-hidden"
-            initial={{ opacity: 0, x: 20 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-          >
-            <div className="absolute top-0 right-0 w-32 h-32 bg-neon-cyan/5 filter blur-3xl rounded-full" />
-            <div className="text-[10px] uppercase font-black tracking-[0.3em] text-neon-cyan mb-6">
-              Mission
-            </div>
-            <p className="text-xl sm:text-2xl text-white font-bold leading-tight tracking-tight italic">
-              “To turn complex ideas into powerful digital products through clean design and elite performance.”
-            </p>
-          </motion.div>
+          <div className="flex flex-col gap-6">
+            <motion.div
+              className="glass p-2 rounded-[2rem] border border-white/5 overflow-hidden aspect-square max-w-[400px] mx-auto flex items-center justify-center"
+              initial={{ opacity: 0, x: 20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+            >
+              <img src={aissaImg} alt="Aissa (Dark)" className="w-full h-full object-cover rounded-[1.75rem] opacity-90 hover:opacity-100 transition-opacity duration-500" />
+            </motion.div>
+
+            <motion.div
+              className="glass p-8 sm:p-10 rounded-[2rem] border border-white/5 relative overflow-hidden"
+              initial={{ opacity: 0, x: 20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.1 }}
+            >
+              <div className="absolute top-0 right-0 w-32 h-32 bg-neon-cyan/5 filter blur-3xl rounded-full" />
+              <div className="text-[10px] uppercase font-black tracking-[0.3em] text-neon-cyan mb-6">
+                Mission
+              </div>
+              <p className="text-lg sm:text-xl text-white font-bold leading-tight tracking-tight italic">
+                “To turn complex ideas into powerful digital products through clean design and elite performance.”
+              </p>
+            </motion.div>
+          </div>
         </div>
       </div>
     </section>

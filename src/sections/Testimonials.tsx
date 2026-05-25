@@ -12,7 +12,7 @@ export const Testimonials: React.FC = () => {
     {
       name: 'Sarah Jenkins',
       role: 'CTO, CloudScale',
-      quote: 'Valentin rebuilt our core portal. The result was a 40% improvement in load times and stunning UI.'
+      quote: 'Aissa rebuilt our core portal. The result was a 40% improvement in load times and stunning UI.'
     },
     {
       name: 'Marcus Thorne',

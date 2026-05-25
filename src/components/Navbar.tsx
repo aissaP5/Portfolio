@@ -73,10 +73,10 @@ export const Navbar: React.FC = () => {
             className="flex items-center gap-2 group"
           >
             <div className="w-8 h-8 rounded-lg bg-white flex items-center justify-center font-black text-dark-bg transition-transform duration-500 group-hover:rotate-12">
-              V
+              A
             </div>
             <span className="font-bold text-sm tracking-[0.2em] text-white">
-              VALENTIN
+              AISSA
             </span>
           </a>
 

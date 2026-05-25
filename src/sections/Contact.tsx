@@ -186,10 +186,10 @@ export const Contact: React.FC = () => {
           {/* Left copyright and brand details */}
           <div className="flex flex-col items-start text-left gap-1">
             <span className="font-sans font-bold text-base tracking-widest text-white">
-              VALENTIN<span className="text-neon-cyan">.</span>
+              AISSA (DARK)<span className="text-neon-cyan">.</span>
             </span>
             <span className="text-xs text-gray-500 font-medium">
-              © {new Date().getFullYear()} Valentin. All rights reserved.
+              © {new Date().getFullYear()} Aissa. All rights reserved.
             </span>
           </div>
 

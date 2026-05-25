@@ -10,7 +10,6 @@ import { Skills } from './sections/Skills';
 import { Projects } from './sections/Projects';
 import { Services } from './sections/Services';
 import { Testimonials } from './sections/Testimonials';
-import { FAQ } from './sections/FAQ';
 import { Contact } from './sections/Contact';
 
 function App() {
@@ -42,7 +41,6 @@ function App() {
         <Projects />
         <Services />
         <Testimonials />
-        <FAQ />
         <Contact />
       </main>
     </div>

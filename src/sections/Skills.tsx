@@ -25,8 +25,7 @@ export const Skills: React.FC = () => {
     { name: 'Tailwind', image: tailwindLogo, color: '#06B6D4' },
     { name: 'Vue.js', image: vueLogo, color: '#41B883' },
     { name: 'Node.js', image: nodeLogo, color: '#339933' },
-    { name: 'MongoDB', image: mongoLogo, color: '#47A248' },
-    { name: 'Vite', image: viteLogo, color: '#9135ff' }
+    { name: 'MongoDB', image: mongoLogo, color: '#47A248' }
   ];
 
   return (
