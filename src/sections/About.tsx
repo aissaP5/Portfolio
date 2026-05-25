@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { ShieldCheck, Cpu, Code2 } from 'lucide-react';
-import aissaImg from '../assets/aissa.jpg';
+import aboutImg from '../assets/image.png';
 
 export const About: React.FC = () => {
   const statCards = [
@@ -40,7 +40,7 @@ export const About: React.FC = () => {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
             >
-              <img src={aissaImg} alt="Aissa (Dark)" className="w-full h-full object-cover rounded-[1.75rem] opacity-90 hover:opacity-100 transition-opacity duration-500" />
+              <img src={aboutImg} alt="About Me" className="w-full h-full object-cover rounded-[1.75rem] opacity-90 hover:opacity-100 transition-opacity duration-500" />
             </motion.div>
 
             <motion.div
