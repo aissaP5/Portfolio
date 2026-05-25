@@ -36,7 +36,7 @@ export const Preloader: React.FC = () => {
             animate={{ scale: 1, rotate: 0, opacity: 1 }}
             transition={{ duration: 0.6, ease: 'easeOut' }}
           >
-            V
+            A
           </motion.div>
 
           {/* Progress Container */}
